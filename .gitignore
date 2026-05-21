@@ -1,0 +1,112 @@
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos de configuração local
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+
+
+# =========================================================
+# Streamlit
+# =========================================================
+.streamlit/secrets.toml
+
+
+# =========================================================
+# Dados locais
+# =========================================================
+data/
+dados/
+exports/
+output/
+outputs/
+temp/
+tmp/
+
+
+
+
+# =========================================================
+# Power BI
+# =========================================================
+*.pbix
+*.pbit
+*.pbip
+*.pbids
+
+# Power BI temporary/cache files
+*.pbi
+*.pbi.bak
+*.pbi~*
+*.tmp
+
+# Pastas comuns do Power BI Project
+.pbi/
+*.Report/
+*.SemanticModel/
+
+# Arquivos locais de cache/modelo
+DataModelSchema
+DataModel
+DiagramLayout
+Settings
+Connections
+SecurityBindings
+
+
+# =========================================================
+# Excel temporários
+# =========================================================
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+
+# =========================================================
+# Sistema operacional
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================================================
+# VS Code / IDE
+# =========================================================
+.vscode/
+.idea/
+
+
+# =========================================================
+# Git
+# =========================================================
+*.orig
