@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 from pathlib import Path
 
+
 # Cria pasta para os dados
 Path("data").mkdir(exist_ok=True)
 
